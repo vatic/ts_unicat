@@ -5,6 +5,7 @@ import classNames from 'classnames';
 import { testUi } from '../actions/ui';
 
 import Catalog from '../components/catalog/Catalog';
+import ItemsList from '../components/catalog/ItemsList';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
 
       <div id="ts_main" className="container">
         <Catalog />
+        <ItemsList />
       </div>
 
     )
